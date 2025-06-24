@@ -20,6 +20,7 @@ export class Comp4Component implements OnInit {
     // console.log('this.s2.s2count = ', this.s2.s2count);
     ++this.comp3service.studentCount
     console.log('this singleton comp3Service.studentCount +2  = ', ++this.comp3service.studentCount);
+    
   }
 
 }
